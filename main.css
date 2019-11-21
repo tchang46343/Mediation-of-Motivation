@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.content-info {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+}
+
+.log-in {
+  float: right;
+}
+
+header {
+  padding: 12% 0;
+}
+
+.relaxButton {
+  width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  font-size: 26px;
+  box-shadow: 20px 20px 10px grey;
+  background-color: wheat;
+  border: solid black 2px;
+  cursor: pointer;
+}

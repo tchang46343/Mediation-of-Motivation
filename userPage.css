@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.content-info {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* .log-in {
+  display: inline-block;
+} */
+.newCard {
+  float: left;
+  margin: 0 15px;
+}
+.login {
+  float: right;
+  margin: 0 15px;
+}
+.main {
+  margin: 10% 0;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+img {
+  width: auto;
+  height: auto;
+}
+li {
+  flex-direction: row;
+}
+header {
+  padding: 25px 0;
+}
+p {
+  padding: 50px;
+}
+
+.Quotes {
+  margin: 25% 0;
+}
+.NextCard {
+  width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  font-size: 26px;
+  box-shadow: 20px 20px 10px grey;
+  background-color: wheat;
+  border: solid black 2px;
+  cursor: pointer;
+}
